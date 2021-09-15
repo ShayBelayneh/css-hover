@@ -1,0 +1,17 @@
+p{
+    background-color:blue ;
+    width: 100px;
+    height:200px;
+    transition: 2s;
+}
+#name{
+    background-color: brown;
+    width: 400px;
+    height:500px;
+    transition:2s ;
+}
+p:hover+#name{
+    background-color:black;
+    width: 500px;
+    height: 600px;
+}
